@@ -16,9 +16,4 @@ Pod::Spec.new do |s|
   s.source_files = "ios/**/*.{h,m,mm,swift}"
 
   s.dependency "React-Core"
-  
-  # Includes Cards and PayPal
-  s.dependency "Braintree"
-  s.dependency "Braintree/DataCollector"
-  s.dependency "Braintree/Venmo"
 end
